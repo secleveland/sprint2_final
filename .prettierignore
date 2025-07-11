@@ -1,0 +1,17 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore artifacts
+build/
+dist/
+
+# Ignore environment files
+.env
+
+# Ignore configuration 
+package-lock.json
+yarn.lock
+
+
+# Ignore Prettier config itself
+.prettierignore

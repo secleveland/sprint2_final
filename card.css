@@ -1,0 +1,30 @@
+.card__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 0px;
+}
+
+.card__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card__list-divider {
+  flex: 1;
+  height: 1px;
+  background-color: #ddd;
+  margin: 0 0.5rem;
+}
+.card {
+  flex: 0 0 100%;
+  text-align: left;
+  max-width: 540px;
+  /* Makes filter and espresso sit above and are in two coloumns */
+}
+
+.card__list {
+  padding-left: 0px;
+}
